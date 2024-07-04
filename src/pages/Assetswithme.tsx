@@ -1,4 +1,4 @@
-import {DataTableDemo} from '@/components/datatable';
+import {DataTable} from '@/components/Assets_Table';
 import NavBar from "@/components/navbar";
 
 // import React from 'react'
@@ -7,7 +7,7 @@ const MyAssets = () => {
   return (
     <div>
         <NavBar />
-        <DataTableDemo />
+        <DataTable />
     </div>
   )
 }

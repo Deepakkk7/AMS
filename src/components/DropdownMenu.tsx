@@ -19,7 +19,7 @@ const DropMenu = () => {
   return (
     <div>
       <DropdownMenu>
-        <DropdownMenuTrigger className=" rounded-full text-xxl">
+        <DropdownMenuTrigger className=" rounded-xl-border text-xxl">
           <img src={Profile} width={30} height={30} alt="Profile" />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="text-white rounded-full-border flex flex-col ">

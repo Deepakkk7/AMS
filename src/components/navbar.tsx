@@ -26,23 +26,23 @@ const NavBar = () => {
       </div>
       <Search />
       <NavigationMenu>
-        <NavigationMenuList className="flex space-x-2 items-center">
-          <NavigationMenuItem>
+        <NavigationMenuList className="flex space-x-2 items-center ">
+          <NavigationMenuItem className="transform transition-transform duration-300 hover:scale-110 ">
             <Button 
               onClick={home}
               className="rounded-full border border-white text-white">
               <img src={Home} alt="Home" />
             </Button>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem  className="transform transition-transform duration-300 hover:scale-110 ">
             <Button className="rounded-full border border-white text-white">
               <img src={Cart} alt="Cart" />
             </Button>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="transform transition-transform duration-300 hover:scale-110 ">
             <Hover /> {/* Corrected usage */}
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem  className="transform transition-transform duration-300 hover:scale-110 ">
             <DropMenu />
           </NavigationMenuItem>
         </NavigationMenuList>

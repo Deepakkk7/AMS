@@ -13,10 +13,12 @@ const Designation = () => {
       <SelectTrigger className="text-black rounded-2xl">
         <SelectValue  placeholder="Select your Designation" />
       </SelectTrigger>
-      <SelectContent className="bg-slate-200 rounded-2xl" >
-        <SelectItem value="light ">Admin</SelectItem>
-        <SelectItem value="dark">Manager</SelectItem>
-        <SelectItem value="system">Employee</SelectItem>
+      <SelectContent className="bg-slate-200 rounded-2xl " >
+        <SelectItem value="light "  className="hover:text-blue-300">Admin</SelectItem>
+        <SelectItem value="dark" className="hover:text-blue-300">Manager</SelectItem>
+        <SelectItem value="system" className="hover:text-blue-300">Employee</SelectItem>
+        <SelectItem value="system" className="hover:text-blue-300">Intern</SelectItem>
+        <SelectItem value="system" className="hover:text-blue-300">Sub-contractor</SelectItem>
       </SelectContent>
     </Select>
     </div>

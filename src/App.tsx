@@ -6,14 +6,12 @@ import MyAssets from "@/pages/Assetswithme";
 const App = () => {
   return (
     <Router>
-      <div>
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/requests" element={<Requests />} />
           <Route path= "/MyAssets" element={<MyAssets/>} />
         </Routes>
-      </div>
     </Router>
   );
 };

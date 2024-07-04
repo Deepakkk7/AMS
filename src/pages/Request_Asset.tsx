@@ -7,7 +7,6 @@ const Requests = () => {
     <div>
         <NavBar />
         <DataTableDemo/>
-        
     </div>
   )
 }

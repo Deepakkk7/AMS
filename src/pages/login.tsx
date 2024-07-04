@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <Card className="max-w-lg w-full rounded-2xl border p-6 bg-slate-200">
-        <CardHeader>
+        <CardHeader className="flex items-center">
           <CardTitle className="font-bold text-4xl ">Login</CardTitle>
         </CardHeader>
         <CardContent>

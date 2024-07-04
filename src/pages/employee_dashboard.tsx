@@ -26,7 +26,7 @@ const Dashboard = () => {
         }}
         className="text-black bg-slate-50 text-2xl rounded-xl border-x-1 border-y-1 w-48 h-48 ml-40 mt-40 flex flex-col items-center justify-center">
           <img src={Request} className="w-32 h-32 mb-2" />
-          <span>Request an asset</span>
+          <span>Requested assets</span>
         </Button>
         <Button 
         onClick={() => {
